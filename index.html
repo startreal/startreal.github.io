@@ -1,12 +1,188 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="ko">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
 
-	<title>REAL</title>
+    <title>REAL</title>
+    
+    <meta name="author" content="REAL <startreal.org@gmail.com>" />
+    <meta name="description" content="REAL: SW 실전 창업 연합동아리" />
+    <meta property="og:title" content="REAL 기술 블로그" />
+    <meta property="og:type" content="blog" />
+    <meta property="og:description" content="REAL: SW 실전 창업 연합동아리" />
+    <meta property="og:url" content="https://startreal.github.io" />
+    <meta property="og:image" content="https://startreal.github.io/logo.png" />
+    <meta property="og:image:width" content="250" />
+    <meta property="og:image:height" content="250" />
+    <meta name="theme-color" content="#ffffff" />
+    
+    <style>
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            font-family: Helvetica, sans-serif;
+            font-size: 16px;
+            color: #4d5256;
+            background-color: #fff;
+        }
+        
+        main {
+            padding: 60px 0;
+            width: 100%;
+            min-height: 480px;
+        }
+        
+        .Center {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .Logo {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .Science {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            right: -50px;
+            bottom: -20px;
+        }
+        
+        .Title {
+            margin: 0 auto;
+            padding: 45px 16px 30px 16px;
+            display: block;
+            max-width: 480px;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 1.2;
+            color: #4d5256;
+            text-align: center;
+        }
+        
+        .Title b {
+            color: #0099cc;
+            font-weight: 500;
+        }
+        
+        .Contact {
+            display: block;
+            margin: 0 auto;
+            max-width: 480px;
+        }
+        
+        .Contact__item {
+            display: block;
+            margin-bottom: 8px;
+            font-style: normal;
+            text-align: center;
+        }
+        
+        .Contact__item > h3 {
+            margin: 0 8px 0 0;
+            font-weight: 500;
+            display: inline-block;
+        }
+        
+        .Contact__item > a {
+            display: inline-block;
+            word-break: break-all;
+            text-decoration: none;
+            font-weight: 400;
+            color: #0099cc;
+        }
+        
+        .Contact__item > a:hover {
+            text-decoration: underline;
+        }
+        
+        .Article {
+            display: block;
+            padding: 75px 16px 45px 16px;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+        
+        .Article__title {
+            display: block;
+            margin: 0 0 12px 0;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        
+        .Article__post {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .Article__post > li {
+            list-style-type: none;
+            margin: 0;
+        }
+        
+        .Article__post > li > a {
+            display: inline-block;
+            word-break: break-all;
+            text-decoration: none;
+            font-weight: 400;
+            color: #0099cc;
+        }
+        
+        .Article__post > li > a:hover {
+            text-decoration: underline;
+        }
+    </style>
 <body>
-	<h1>Hello World!</h1>
+
+	<main>
+        <section class="Center">
+            <img src="logo-normal.png" class="Logo" />
+            <img src="science.png" class="Science" />
+        </section>
+        
+        <h1 class="Title">
+            <b>REAL</b>
+            기술 블로그
+        </h1>
+        
+        <address class="Contact">
+            <div class="Contact__item">
+                <h3>홈페이지</h3>
+                <a href="http://startreal.org/">http://startreal.org</a>
+            </div>
+            
+            <div class="Contact__item">
+                <h3>이메일</h3>
+                <a href="mailto:startreal.org@gmail.com">startreal.org@gmail.com</a>
+            </div>
+        </address>
+        
+        <article class="Article">
+            <h2 class="Article__title">목록</h2>
+            
+            <ul class="Article__post">
+                <li>
+                    <a href="/hackweek-5th">HackWeek 5th 포트폴리오</a>
+                </li>
+            </ul>
+        </article>
+    </main>
+    
 </body>
 </head>
-
